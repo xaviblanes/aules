@@ -1,0 +1,35 @@
+body {
+    font-family: "sans-serif";
+ }
+.cap {    
+    text-align: center;
+  }
+
+.cos1 {
+    margin: 0 10% 0 10%;
+}
+
+.cos2 {
+    margin: 0 8% 0 8%;
+}
+
+a img {
+    padding: 5%;
+}
+
+.col1, .col2, .col3 {
+    text-align: center;
+    float: left;
+    width: 33.3%;
+ } 
+ .centre {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.4em;
+ }
+ 
+ @media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .col1, .col2, .col3 {
+    width: 100%;
+  }
